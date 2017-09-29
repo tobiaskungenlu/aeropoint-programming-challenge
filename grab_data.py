@@ -141,7 +141,7 @@ if __name__ == '__main__':
     filelist = glob.glob(os.path.join(dir,'example/*'))
     for f in filelist:
         if f.endswith('.gz'):
-            print('unzipping ', ends = '')
+            print('unzipping...')
             print(f)
             un_gz(f)
 
